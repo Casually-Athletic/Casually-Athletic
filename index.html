@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Casually-Athletic LLC</title>
+  <meta name="description" content="Casually-Athletic LLC — curated clothing, shoes, and collectibles. Online resale and local deals." />
+  <style>
+    :root{--bg:#0b0f14;--card:#121826;--text:#e8eef7;--muted:#a9b4c2;--accent:#5bd1ff;--accent2:#7cffc1;}
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#06080c, #0b0f14);color:var(--text)}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1050px;margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:44px;height:44px;border-radius:14px;background:radial-gradient(circle at 30% 30%,var(--accent),transparent 55%),radial-gradient(circle at 70% 70%,var(--accent2),transparent 55%), #1b2436;box-shadow:0 10px 30px rgba(91,209,255,.18)}
+    nav{display:flex;gap:14px;flex-wrap:wrap}
+    nav a{padding:10px 12px;border-radius:12px;color:var(--muted)}
+    nav a:hover{background:rgba(255,255,255,.06);color:var(--text)}
+    .hero{padding:40px 0 10px;display:grid;grid-template-columns:1.2fr .8fr;gap:22px;align-items:center}
+    .card{background:rgba(18,24,38,.75);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:20px;backdrop-filter: blur(8px)}
+    h1{font-size:40px;line-height:1.05;margin:0 0 12px}
+    p{color:var(--muted);margin:0 0 16px;font-size:16px;line-height:1.55}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 14px;border-radius:14px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.06)}
+    .btn:hover{background:rgba(255,255,255,.10)}
+    .btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#061018;border:none;font-weight:650}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0 0}
+    .pill{display:inline-flex;gap:8px;align-items:center;color:#061018;font-weight:700;background:linear-gradient(90deg,var(--accent),var(--accent2));padding:8px 10px;border-radius:999px;font-size:13px}
+    .section{padding:26px 0}
+    h2{margin:0 0 10px;font-size:22px}
+    ul{margin:10px 0 0;padding-left:18px;color:var(--muted);line-height:1.7}
+    .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    footer{padding:28px 0;color:var(--muted);font-size:13px}
+    .small{font-size:13px}
+    @media (max-width: 860px){
+      .hero{grid-template-columns:1fr}
+      .grid{grid-template-columns:1fr}
+      .two{grid-template-columns:1fr}
+      h1{font-size:34px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div style="font-weight:800;letter-spacing:.2px">Casually-Athletic LLC</div>
+          <div class="small" style="color:var(--muted)">Curated clothing • shoes • collectibles</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#shop">Shop Links</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="card">
+        <span class="pill">Resale • Thrift Finds • Online Deals</span>
+        <h1>Clean finds. Quick flips. Fair prices.</h1>
+        <p>
+          Casually-Athletic LLC sources quality clothing, shoes, and collectibles—then lists them fast so you can shop confidently.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#shop">Shop our listings</a>
+          <a class="btn" href="#contact">Get in touch</a>
+          <a class="btn" href="mailto:casually-athleticLLC@gmail.com">Email us</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>What we focus on</h2>
+        <ul>
+          <li>Vintage + modern clothing (streetwear, outerwear, basics)</li>
+          <li>Shoes (sneakers, boots, lifestyle)</li>
+          <li>Collectibles (cards, retro items, unique finds)</li>
+          <li>Fast shipping + honest condition notes</li>
+        </ul>
+        <div class="grid">
+          <div class="card" style="padding:14px">
+            <div style="font-weight:750">Reliable listings</div>
+            <div class="small" style="color:var(--muted)">Clear photos + details</div>
+          </div>
+          <div class="card" style="padding:14px">
+            <div style="font-weight:750">Quick turnaround</div>
+            <div class="small" style="color:var(--muted)">Ships ASAP</div>
+          </div>
+          <div class="card" style="padding:14px">
+            <div style="font-weight:750">Curated finds</div>
+            <div class="small" style="color:var(--muted)">Quality over clutter</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="two">
+        <div class="card">
+          <h2>About Casually-Athletic</h2>
+          <p>
+            We’re a small resale business that hunts down great items locally and online—then passes the best finds on to you.
+            Expect accurate descriptions, fair pricing, and fast shipping.
+          </p>
+          <p class="small">Want this to sound more personal? Tell me a few lines about your story and I’ll rewrite this.</p>
+        </div>
+        <div class="card">
+          <h2>Services</h2>
+          <ul>
+            <li>Online resale storefront</li>
+            <li>Local pickup (when available)</li>
+            <li>Bundle deals on multi-item orders</li>
+            <li>Message us with requests (sizes, styles, collectibles)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="section">
+      <div class="card">
+        <h2>Shop Links</h2>
+        <p>Add your store links here (eBay, Poshmark, Mercari, Depop, etc.). If you send me your URLs, I’ll plug them in.</p>
+        <div class="cta">
+          <a class="btn primary" href="#" onclick="alert('Send me your eBay store link and I’ll add it here!');return false;">eBay Store</a>
+          <a class="btn" href="#" onclick="alert('Send me your other selling links and I’ll add them.');return false;">Other Platforms</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="two">
+        <div class="card">
+          <h2>Contact</h2>
+          <p>
+            <strong>Phone:</strong> <a href="tel:+19098384984">909-838-4984</a><br/>
+            <strong>Email:</strong> <a href="mailto:casually-athleticLLC@gmail.com">casually-athleticLLC@gmail.com</a>
+          </p>
+          <p class="small">If you want a contact form that emails you, I can add it (best with a free form service or a simple backend).</p>
+        </div>
+        <div class="card">
+          <h2>Business hours</h2>
+          <p class="small" style="margin-bottom:8px">Add hours if you want, or leave this section off.</p>
+          <ul>
+            <li>Mon–Sat: 10am–6pm</li>
+            <li>Sun: Messages only</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Casually-Athletic LLC • All rights reserved
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
